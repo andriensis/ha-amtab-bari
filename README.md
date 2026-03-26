@@ -16,7 +16,7 @@ A Home Assistant custom integration that brings real-time and schedule data from
 |-------|---------------|
 | ![Setup](docs/config_line.png) | ![Select line](docs/config_line_pick.png) |
 
-| Stop | Gate entity |
+| Stop | Line device |
 |-------------|------------|
 | ![Stop](docs/config_stop.png) | ![Line device](docs/line.png) |
 
