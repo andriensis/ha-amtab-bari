@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aggiungi monitor linea AMTAB",
+        "description": "Seleziona la linea e la direzione da monitorare. I dati vengono scaricati dal feed GTFS ufficiale AMTAB.",
+        "data": {
+          "route_id": "Linea",
+          "direction_id": "Direzione"
+        }
+      },
+      "select_stop": {
+        "title": "Seleziona la fermata",
+        "description": "Scegli la fermata da cui vuoi monitorare le prossime partenze.",
+        "data": {
+          "stop_id": "Fermata",
+          "monitor_name": "Nome del monitor (opzionale)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile scaricare i dati GTFS. Controlla la connessione internet e riprova."
+    },
+    "abort": {
+      "already_configured": "Questo monitor (linea + fermata + direzione) è già configurato."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opzioni monitor AMTAB",
+        "data": {
+          "scan_interval_minutes": "Intervallo di aggiornamento (minuti)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next_departure": {
+        "name": "Prossima partenza"
+      },
+      "realtime_eta": {
+        "name": "ETA tempo reale"
+      },
+      "active_buses": {
+        "name": "Bus attivi"
+      }
+    }
+  }
+}

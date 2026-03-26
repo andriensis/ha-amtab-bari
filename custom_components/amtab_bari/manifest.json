@@ -1,0 +1,12 @@
+{
+  "domain": "amtab_bari",
+  "name": "AMTAB Bari",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/andriensis/ha-amtab-bari",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/andriensis/ha-amtab-bari/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
