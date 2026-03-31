@@ -85,10 +85,30 @@ Three sensors are created for each configured monitor:
 
 ### Via HACS (recommended)
 
-1. In HACS, open the 3-dot menu → **Custom repositories**
-2. Add this repository URL with category **Integration**
-3. Click **Download**
-4. Restart Home Assistant
+> **Prerequisites:** You need [HACS](https://hacs.xyz/) installed in your Home Assistant. If you don't have it yet, follow the [HACS installation guide](https://hacs.xyz/docs/use/download/download/) first.
+
+**Step 1 — Add the repository to HACS:**
+
+[![Add Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=andriensis&repository=ha-amtab&category=integration)
+
+Click the button above to add the repository. This opens HACS in your Home Assistant and adds the AMTAB Bari repository. If the button doesn't work, add it manually:
+
+1. Open **HACS** > **Integrations** > click the **three-dot menu** (top right) > **Custom repositories**
+2. Paste `https://github.com/andriensis/ha-amtab-bari/` as the URL
+3. Select **Integration** as the category and click **Add**
+
+**Step 2 — Download the integration:**
+
+1. In HACS, find **AMTAB Bari** in the integration list (search if needed)
+2. Click on it, then click **Download** (bottom right)
+3. Select the latest version and confirm
+4. **Restart Home Assistant**
+
+**Step 3 — Add the integration to Home Assistant:**
+
+[![Add Integration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=amtab_bari)
+
+Click the button above to start the setup, or go to **Settings > Devices & Services > + Add Integration** and search for **AMTAB Bari**.
 
 ### Manual
 
