@@ -1,7 +1,7 @@
 {
   "domain": "amtab_bari",
   "name": "AMTAB Bari",
-  "codeowners": [],
+  "codeowners": ["@andriensis"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/andriensis/ha-amtab-bari",
