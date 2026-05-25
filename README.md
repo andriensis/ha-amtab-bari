@@ -87,24 +87,20 @@ Three sensors are created for each configured monitor:
 
 > **Prerequisites:** You need [HACS](https://hacs.xyz/) installed in your Home Assistant. If you don't have it yet, follow the [HACS installation guide](https://hacs.xyz/docs/use/download/download/) first.
 
-**Step 1 — Add the repository to HACS:**
+**Step 1 — Install app through HACS:**
 
-[![Add Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=andriensis&repository=ha-amtab&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=andriensis&repository=ha-amtab&category=integration)
 
-Click the button above to add the repository. This opens HACS in your Home Assistant and adds the AMTAB Bari repository. If the button doesn't work, add it manually:
+Click the button above to add the repository.\
+This opens HACS in your Home Assistant and adds the 1Control repository. If the button doesn't work, add it manually:
 
-1. Open **HACS** > **Integrations** > click the **three-dot menu** (top right) > **Custom repositories**
-2. Paste `https://github.com/andriensis/ha-amtab-bari/` as the URL
-3. Select **Integration** as the category and click **Add**
+1. Open **HACS**
+2. In HACS, find **AMTAB Bari** in the integration list (search if needed)
+3. Click on it, then click **Download** (bottom right)
+4. Select the latest version and confirm
+5. **Restart Home Assistant**
 
-**Step 2 — Download the integration:**
-
-1. In HACS, find **AMTAB Bari** in the integration list (search if needed)
-2. Click on it, then click **Download** (bottom right)
-3. Select the latest version and confirm
-4. **Restart Home Assistant**
-
-**Step 3 — Add the integration to Home Assistant:**
+**Step 2 — Add the integration to Home Assistant:**
 
 [![Add Integration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=amtab_bari)
 
